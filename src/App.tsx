@@ -1,12 +1,15 @@
 import "./App.css";
+import Footer from "./components/screenMain/Footer";
+import Header from "./components/screenMain/Header";
+import Main from "./components/screenMain/Main";
 
 //Todos los comoponentes Empiezan con mayuscula CamelCase
 const App = () => {
   return (
     <>
-      <div>
-        <p>Alekey Dev</p>
-      </div>
+      <Header/>
+      <Main/>
+      <Footer/>
     </>
   );
 };

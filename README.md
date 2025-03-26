@@ -40,7 +40,8 @@ const Component = ({children})=>{
 En base a una logica condicional podemos tener el poder de renderizar
 componentes que cumplan con condiciones dadas
 archivo a revisar es el Proyects.tsx Hay esta el xample simple low code :V
-
+*8 State
+Manejar estados locales para los componentes, como valores primitivos objetos etc
 \*SNIPPET
 rafce: Crear un nuevo componente
 

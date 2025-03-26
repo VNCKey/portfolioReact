@@ -1,15 +1,11 @@
 import "./App.css";
-import Footer from "./components/screenMain/Footer";
-import Header from "./components/screenMain/Header";
-import Main from "./components/screenMain/Main";
+import HomeScreen from "./pages/homeScreen/HomeScreen";
 
 //Todos los comoponentes Empiezan con mayuscula CamelCase
 const App = () => {
   return (
     <>
-      <Header/>
-      <Main/>
-      <Footer/>
+      <HomeScreen/>
     </>
   );
 };

@@ -1,4 +1,4 @@
-import { PerfilInterface } from "./screenMain/Main";
+import { PerfilInterface } from "../interface/interfacePerfil";
 
 
 

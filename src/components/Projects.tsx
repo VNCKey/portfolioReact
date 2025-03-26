@@ -1,3 +1,4 @@
+import { ProjectProps } from "../interface/interfaceProjects";
 
 const TrueProjects = ()=>{
     return (
@@ -17,18 +18,9 @@ const FalseProjects = ()=>{
     
 }
 
-interface ProjectProps{
-    conditionalProjects :boolean
-} 
-
-
-//correjir proyects por projects despues
+//Correjido
 const Proyects = ({conditionalProjects}:ProjectProps) => {
-
-    const evalueProjects = (conditionalProjects) ? <TrueProjects/> : <FalseProjects/>
-
-    return evalueProjects
-  
+    return conditionalProjects ? <TrueProjects/> : <FalseProjects/>
 };
 
 export default Proyects;

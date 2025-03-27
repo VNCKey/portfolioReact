@@ -3,7 +3,3 @@ export interface dataProjectsApp{
     description: string
     technologies: string[]
 }
-
-export interface ProjectProps{
-    conditionalProjects :boolean
-} 

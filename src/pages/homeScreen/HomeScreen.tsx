@@ -4,6 +4,7 @@ import Proyects from "../../components/Projects";
 import { useState } from "react";
 import { projectsApps } from "../../data/projectsData";
 import { dataProjectsApp } from "../../interface/interfaceProjects";
+import UseState from "../../components/UseState";
 
 const HomeScreen = () => {
 
@@ -26,6 +27,8 @@ const HomeScreen = () => {
                 <Proyects
                     dataProjects = {projects}
                 />
+                <p>Tuto useState</p>
+                <UseState/>
             </main>
             <footer>
                 <p>MADE IN REACT 2025 BY AlekeyDev VNC</p>
